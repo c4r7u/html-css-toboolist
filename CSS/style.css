@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f6f8f9;
+}
+
+
+.container {
+
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.testo-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.first-square {
+    width: 950px;
+    height: 50px;
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 200px;
+
+}
+.second-square {
+    width: 950px;
+    height: 490px;
+    background-color: white;
+    margin-top: 3px;
+    margin-left: 200px;
+}
+
+.first-button {
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8%;
+}
+
+.second-button {
+    margin-top: 10px;
+    background-color:white;
+    color: grey;
+    padding: 10px;
+    border-radius: 8%;
+    border-color: grey;
+    border-width: thin;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 18px;
+}
+
+.list {
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.editorial {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
+
+.goals {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
+
+.mobile {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
+
+.website {
+    background-color: #d863a1;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
+
+.sales {
+    background-color: #b0c926;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 20%;
+}
