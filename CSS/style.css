@@ -47,25 +47,29 @@ header {
     margin-left: 200px;
 }
 
-.first-button {
+.bottone {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
     margin-top: 10px;
-    margin-left: 50px;
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 8%;
 }
 
-.second-button {
-    margin-top: 10px;
-    background-color:white;
-    color: grey;
-    padding: 10px;
-    border-radius: 8%;
-    border-color: grey;
-    border-width: thin;
+.primo {
+    background-color: #14aaf5;
+    color: white;
+    border-color: #14aaf5;
+    margin-left: 30px;
 }
+
+.secondo {
+    background-color: white;
+    color: lightgray;
+    border-color: lightgray;
+}
+
 
 li {
     list-style: none;
@@ -77,50 +81,61 @@ li {
     padding: 20px;
 }
 
+
+.tag {
+    border: 1px solid black;
+    padding: 3px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
 .editorial {
     background-color: blue;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: blue;
 }
 
 .goals {
     background-color: purple;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: purple;
 }
-
 .recruiting {
     background-color: #64c0a9;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: #64c0a9;
 }
 
 .mobile {
     background-color: orange;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: orange;
 }
 
 .website {
     background-color: #d863a1;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: #d863a1;
 }
 
 .sales {
     background-color: #b0c926;
-    color: white;
-    padding: 5px;
-    border: none;
-    border-radius: 20%;
+    border-color: #b0c926;
+
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.green {
+    color: #2cc6ab;
+    border-color: #2cc6ab;
+}
+
+.red {
+    color: red;
+    border-color: red;
 }
